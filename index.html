@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auth0 Refresh Token Rotation</title>
+    <title>Auth0 Refresh Token Rotation + SMS Login</title>
     <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js" defer></script>
     <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>Auth0 Refresh Token Rotation</h1>
-    <button id="login">Login</button>
+    <h1>Auth0 Refresh Token Rotation + SMS Login</h1>
+    <button id="login">Login (メール)</button>
+    <button id="login-sms">Login (電話番号)</button>
     <button id="refresh" style="display: none;">Refresh Token</button>
     <button id="logout" style="display: none;">Logout</button>
     <pre id="profile"></pre>
